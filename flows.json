@@ -383,11 +383,6 @@
         "label": "Postman Basic Flow"
     },
     {
-        "id": "1db3eb49ad45da6f",
-        "type": "tab",
-        "label": "Postman Basic Flow"
-    },
-    {
         "id": "b168f2c5faee9c16",
         "type": "subflow",
         "name": "COE HTTP POST (retry)",
@@ -28248,45 +28243,6 @@
         "statusType": "auto",
         "x": 270,
         "y": 320,
-        "wires": []
-    },
-    {
-        "id": "11111111.222222.001",
-        "type": "inject",
-        "z": "1db3eb49ad45da6f",
-        "name": "Trigger",
-        "props": [
-            {
-                "p": "payload"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "topic": "",
-        "payload": "Hello from Postman!",
-        "payloadType": "str",
-        "x": 150,
-        "y": 100,
-        "wires": [
-            [
-                "33333333.444444.001"
-            ]
-        ]
-    },
-    {
-        "id": "33333333.444444.001",
-        "type": "debug",
-        "z": "1db3eb49ad45da6f",
-        "name": "Output",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "x": 370,
-        "y": 100,
         "wires": []
     }
 ]
